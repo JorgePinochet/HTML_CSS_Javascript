@@ -1,0 +1,36 @@
+body
+{
+  background-color:#CCCCFF
+}
+table
+{
+  margin-left:auto;
+  margin-right:auto;
+  font-family: arial;
+  background-color:white
+}
+td
+{
+  font-size:16
+}
+th
+{
+  font-size:20
+}
+h1
+{
+  font-family:arial;
+  font-size:125%;
+  text-align:center
+}
+h2
+{
+  font-family:arial;
+  text-align:left
+}
+h3
+{
+  font-family:arial;
+  font-size:125%;
+  text-align:right
+}

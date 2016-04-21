@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT customers (customer*)>
+
+<!ELEMENT customer (name, address?, phoneNumber*)>
+<!ELEMENT name (#PCDATA)>
+
+<!ELEMENT address (street, city, postalCode)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT postalCode (#PCDATA)>
+
+<!ELEMENT phoneNumber (number, type?)>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+

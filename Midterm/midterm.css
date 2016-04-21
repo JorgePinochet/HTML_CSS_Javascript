@@ -1,0 +1,25 @@
+body
+{
+	 background-color:#32CD32
+}
+table
+{
+	text-align:left;
+	background-color:#FF69B4
+}
+h1
+{
+	color:black
+}
+h2
+{
+	text-align:right
+}
+th
+{
+	text-align:center
+}
+td
+{
+	color:white
+}

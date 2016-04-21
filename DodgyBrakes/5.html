@@ -1,0 +1,55 @@
+<html>
+  <head>
+	<script type="text/javascript" src="javascriptTest.js"></script>
+    <link rel="stylesheet" type="text/css" href="dodgyBrake.css" />
+    <center><img border="0" src="Photos/DClogo.bmp"/></center>
+    <title>Rental Deal</title>
+  </head>
+  <body>
+  <h1>Rentals</h1>
+  <br />
+  <br />
+    <br />
+    <br />
+    <br />
+   <form name="form">
+		<table border="1" cellspacing="0" cellpadding="2">
+			<tr valign="top">
+				<td>Duration<br />
+					<input type = "radio" name="rentaltime" value="1" checked="true">Daily</input><br />
+					<input type="radio" name="rentaltime" value="2">Weekend</input><br />
+					<input type="radio" name="rentaltime" value="7">Weekly</input><br />
+				</td>
+
+				<td>Car Type<br />
+					<input type="radio" name="cartype" value="30" checked="true">Compact car ($30pd)</input><br />
+					<input type="radio" name="cartype" value="40">Midsize car ($40pd)</input><br />
+					<input type="radio" name="cartype" value="50">Fullsize car ($50pd)</input><br />
+					<input type="radio" name="cartype" value="60">Van ($60pd)</input>
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="2"><center>Extras</center>
+					<input type="checkbox" name="extra" value="10">A/C (+$10)</input>
+					<input type="checkbox" name="extra" value="100">Working Brakes (+$100)</input><br />
+					<input type="checkbox" name="extra" value="20">Cruise Control (+$20)</input>
+					<input type="checkbox" name="extra" value="30">Baby Seat (+$30)</input>
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="2">
+					<center><input type="button" value="Estimate cost" onclick="calculateEstimatedCost();"></input></center>
+				</td>
+			</tr>
+		</table>
+	</form>
+    <br />
+    <br />
+    <a href="dodgyBrake.html">Home</a><br />
+    <a href="2.html">Click here to Register</a><br />
+    <a href="4.html">Click here to buy a car</a><br />
+    <center><img border="0" src="Photos/SUVground.jpg"/></center>
+  </body>
+</html>
